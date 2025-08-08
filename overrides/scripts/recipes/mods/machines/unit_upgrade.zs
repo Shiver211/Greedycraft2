@@ -57,8 +57,21 @@ for capacitorlist in capacitors {
         .addDescriptions("§b增加ELYSIA单元到" + capacitors[capacitorlist][1] as string + "条并行")
         .addModifier(false, capacitorlist.definition.id, RecipeModifierBuilder.create("modularmachinery:duration", "input", 1.0f / (capacitors[capacitorlist][0] as float), 1, false).build())
         .addPreRecipeCheckHandler(function(event as MachineEvent, upgrade as MachineUpgrade) {
+            var upgradeNum = 0;
+            for capacitorlist in capacitors {
+                if (!isNull(MachineUpgradeHelper.getUpgrade(capacitorlist.definition.id + capacitorlist.metadata as string + "_upg"))) {
+                    upgradeNum += 1;
+                }
+            }
             if (!isNull(event.controller.activeRecipe)) {
-                event.controller.activeRecipe.maxParallelism = capacitors[capacitorlist][1] as int;
+                if (upgradeNum == 1) {
+                    event.controller.activeRecipe.maxParallelism = capacitors[capacitorlist][1] as int;
+                } else if (upgradeNum > 1) {
+                    event.controller.activeRecipe.totalTick = 10000;
+                    //限制多升级的惩罚性措施
+                    //另一种方案，有bug(移除多余升级后会跑空线程，需移除全部升级重置)但能用:
+                    //event.controller.activeRecipe.maxParallelism = 0;
+                }
             }
         })
         .addCompatibleMachines("elysia_alloyer")
