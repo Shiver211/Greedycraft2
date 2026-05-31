@@ -597,7 +597,6 @@ ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 50
 ChemicalReactor.addRecipe(<liquid:molybdenum> * 72, <liquid:oxygen> * 750, <liquid:molybdenum_trioxide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:molybdenum_trioxide> * 333, <liquid:sodium_hydroxide_solution> * 666, <liquid:sodium_molybdate_solution> * 333, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:rich_brine> * 500, <liquid:ammonia> * 500, <liquid:ammonia_brine> * 500, null);
-ChemicalReactor.addRecipe(<liquid:c4_i4_difluorodiphenylmethanone> * 250, <liquid:hydroquinone_solution> * 250, <liquid:polyetheretherketone> * 36, <liquid:hydrofluoric_acid> * 500);
 ChemicalReactor.addRecipe(<liquid:methanol> * 500, <liquid:oxygen> * 250, <liquid:formaldehyde> * 500, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:formaldehyde> * 500, <liquid:oxygen> * 250, <liquid:formic_acid> * 500, null);
 ChemicalReactor.addRecipe(<liquid:formic_acid> * 250, <liquid:hydrogen> * 500, <liquid:methanol> * 250, <liquid:water> * 250);
@@ -614,7 +613,6 @@ ChemicalReactor.addRecipe(<liquid:2_hydroxy_1_3_benzenedisulfonic_acid> * 250, <
 ChemicalReactor.addRecipe(<liquid:2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 500, <liquid:p_nitrophenol> * 250, <liquid:sulfuric_acid> * 500);
 ChemicalReactor.addRecipe(<liquid:p_nitrophenol> * 250, <liquid:p_chloronitrobenzene> * 250, <liquid:bis_4_nitrophenyl_ether> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:bis_4_nitrophenyl_ether> * 250, <liquid:hydrogen> * 1500, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:water> * 1000);
-ChemicalReactor.addRecipe(<liquid:pyromellitic_dianhydride> * 250, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:pyroxene> * 36, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:hydrogen> * 750, <liquid:cyclohexane> * 250, null);
 ChemicalReactor.addRecipe(<liquid:cyclohexane> * 250, <liquid:oxygen> * 250, <liquid:cyclohexanone> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:ammonia> * 250, <liquid:hydrogen_peroxide> * 250, <liquid:hydroxylamine> * 250, <liquid:water> * 250);

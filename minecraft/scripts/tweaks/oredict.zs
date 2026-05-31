@@ -997,6 +997,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:elysia_pyrolyzer_factory_controller>,
         <modularmachinery:elysia_polymer_factory_controller>,
         <modularmachinery:elysia_etcher_factory_controller>,
+        <modularmachinery:elysia_enricher_factory_controller>,
         <modularmachinery:factory_4x_factory_controller>,
         <modularmachinery:factory_5x_factory_controller>,
         <modularmachinery:factory_arcanic_astrallizer_factory_controller>,
@@ -1050,14 +1051,16 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:matrix_balancer_factory_controller>,
         <modularmachinery:entropy_reverse_factory_controller>,
         <modularmachinery:loot_creater_factory_controller>,
-        <modularmachinery:pe_collector_factory_controller>
+        <modularmachinery:pe_collector_factory_controller>,
+        <modularmachinery:kabalah_builder_factory_controller>
     ],
     <ore:controllerLevel5> : [
         <modularmachinery:dimensional_miner_factory_controller>,
         <modularmachinery:aspect_crafter_factory_controller>,
         <modularmachinery:biotechnic_computer_factory_controller>,
         <modularmachinery:wave_forge_factory_controller>,
-        <modularmachinery:crimson_extractor_factory_controller>
+        <modularmachinery:crimson_extractor_factory_controller>,
+        <modularmachinery:ion_exchange_column_factory_controller>
     ],
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>,

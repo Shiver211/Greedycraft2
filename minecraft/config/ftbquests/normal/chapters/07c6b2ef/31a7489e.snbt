@@ -1,0 +1,29 @@
+{
+	title: "§b别把产物倒了",
+	x: -17.0d,
+	y: -12.5d,
+	description: "合成大型精炼单元控制器",
+	text: [
+		"或许你需要这个东西来制作盐水产线"
+	],
+	dependencies: [
+		"f1ed4344"
+	],
+	tasks: [{
+		uid: "1d6f46c7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_enricher_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "cecbac08",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7515cba5",
+		type: "xp",
+		xp: 1500
+	}]
+}

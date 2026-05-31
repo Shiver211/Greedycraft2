@@ -52,6 +52,12 @@ RecipeBuilder.newBuilder("r3","thermal_evaporation_plant",1)
     .addFluidOutput(<liquid:liquidsuperheatedsodium> * 1)
     .build();
 
+RecipeBuilder.newBuilder("r4", "thermal_evaporation_plant",1)
+    .addEnergyPerTickInput(10000)
+    .addFluidInputs(<liquid:bio.ethanol> * 1000)
+    .addFluidOutput(<liquid:ethanol> * 950)
+    .build();
+
 MMEvents.onControllerGUIRender("thermal_evaporation_plant", function(event as ControllerGUIRenderEvent) {
     var modeList as string[] = [
         "卤水",

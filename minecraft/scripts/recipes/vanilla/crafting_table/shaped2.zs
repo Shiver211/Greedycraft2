@@ -980,6 +980,36 @@ RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite
     [<ore:ingotNetherite>, <functionalstoragelegacy:diamond_upgrade>, <ore:ingotNetherite>],
     [<ore:chest>, <minecraft:obsidian>, <ore:chest>]
 ]);
+RecipeUtil.addShaped("mana_input_bus", <mmce_complement:me_mana_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>],
+    [<crazyae:part:4>, <botaniverse:spark_muspelheim>, <crazyae:part:4>],
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("mana_output_bus", <mmce_complement:me_mana_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>],
+    [<crazyae:part:5>, <botaniverse:spark_muspelheim>, <crazyae:part:5>],
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("energy_input_bus", <mmce_complement:me_energy_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>],
+    [<crazyae:part:7>, <draconicevolution:wyvern_energy_core>, <crazyae:part:7>],
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("energy_output_bus", <mmce_complement:me_energy_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>],
+    [<crazyae:part:8>, <draconicevolution:wyvern_energy_core>, <crazyae:part:8>],
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("wireless_flux_input_hatch", <mmce_complement:flux_input_hatch>, [
+    [<modularmachinery:blockenergyinputhatch:7>, <additions:engineering_processor_3>, <fluxnetworks:fluxpoint>],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("wireless_flux_output_hatch", <mmce_complement:flux_output_hatch>, [
+    [<modularmachinery:blockenergyoutputhatch:7>, <additions:engineering_processor_3>, <fluxnetworks:fluxplug>],
+    [null, null, null],
+    [null, null, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

@@ -2,7 +2,7 @@
 	title: "§b熔岩炉+++",
 	x: -17.0d,
 	y: -15.0d,
-	description: "合成大型融化单元集成控制器",
+	description: "合成大型熔化单元集成控制器",
 	text: [
 		""
 	],

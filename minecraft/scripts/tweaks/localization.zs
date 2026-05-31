@@ -90,6 +90,7 @@ val localizationMap as string[string][string] = {
         "modifier.ported_changed.name": "交互",
         "modifier.ported.name": "交互",
         "modifier.tconevo.opportunist.name": "机会主义",
+        "fluid.bio.ethanol": "生物乙醇",
         "material.prometheum.name": "普罗姆",
         "tile.prometheum_block.name": "普罗姆块",
         "tile.prometheum_ore.name": "普罗姆矿石",
