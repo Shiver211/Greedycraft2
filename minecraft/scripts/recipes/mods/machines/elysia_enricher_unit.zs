@@ -79,7 +79,7 @@ var distillRecipes as distillRecipe[] = [
     distillRecipe(<liquid:binnie.wine.apricot> * 500, <liquid:binnie.brandy.apricot> * 200, null, 5000),
     distillRecipe(<liquid:binnie.wine.citrus> * 500, <liquid:binnie.brandy.citrus> * 200, null, 5000),
     distillRecipe(<liquid:binnie.wine.cherry> * 500, <liquid:binnie.brandy.cherry> * 200, null, 5000),
-    distillRecipe(<liquid:binnie.wine.elderberry> * 500, <liquid:binnie.brandy.berry> * 200, null, 5000),
+    distillRecipe(<liquid:binnie.wine.elderberry> * 500, <liquid:binnie.brandy.elderberry> * 200, null, 5000),
     distillRecipe(<liquid:binnie.wine.plum> * 500, <liquid:binnie.brandy.plum> * 200, null, 5000),
     distillRecipe(<liquid:binnie.ciderpear> * 500, <liquid:binnie.brandy.pear> * 200, null, 5000),
     distillRecipe(<liquid:binnie.brandy.fruit> * 500, <liquid:binnie.liquor.fruit> * 200, null, 5000),

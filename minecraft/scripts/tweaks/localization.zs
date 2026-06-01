@@ -130,6 +130,7 @@ val localizationMap as string[string][string] = {
         "material.xu_evil_metal.prefix": "恶魔灌注铁 %s",
         "material.xu_magical_wood.prefix": "魔法木 %s",
         "material.xu_enchanted_metal.prefix": "附魔金属 %s",
+        "tile.modularmachinery.blockcasing.firebox.name": "机械燃烧室",
         "thaumicaugmentation.text.entered_void": "你拜访了无尽的虚空。",
         "thaumicaugmentation.text.mountain": "你拜访了一座高山。",
         "thaumicaugmentation.text.desert": "你拜访了一片荒漠。",
